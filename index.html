@@ -1,24 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
-    <meta name="theme-color" content="#07151f" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="Wayborn" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <link rel="manifest" href="/manifest.webmanifest" />
-    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Wayborn</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <div id="ui-root"></div>
-    <div id="orientation-warning">
-      <strong>Wayborn</strong>
-      <span>Telefonu yatay cevir.</span>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            overflow: hidden;
+            font-family: sans-serif;
+            user-select: none;
+        }
+        /* Oyun ekranının arkada duracağı alan */
+        #game-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 1;
+        }
+        /* Senin mevcut DOM/HTML arayüzlerinin bineceği üst katman */
+        #ui-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 10;
+            pointer-events: none; /* Arkadaki oyuna tıklanabilmesini sağlar */
+        }
+        /* Tıklanabilir pencereler için pointer-events'i tekrar açıyoruz */
+        .interactive-window {
+            pointer-events: auto;
+        }
+        /* Küçük bir HUD tasarımı örneği */
+        #speed-hud {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.6);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="game-container"></div>
+
+    <div id="ui-container">
+        <div id="speed-hud">Sal Hızı: Hesaplamıyor...</div>
     </div>
+
     <script type="module" src="/src/main.js"></script>
-  </body>
+</body>
 </html>
