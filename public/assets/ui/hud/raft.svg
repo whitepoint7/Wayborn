@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="wood" x1="8" y1="15" x2="55" y2="49" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d18a35"/>
+      <stop offset=".55" stop-color="#8d541d"/>
+      <stop offset="1" stop-color="#4b270d"/>
+    </linearGradient>
+  </defs>
+  <path d="M8 20h48v28H8Z" fill="#111"/>
+  <g fill="url(#wood)" stroke="#2d1708" stroke-width="2">
+    <rect x="8" y="22" width="10" height="24" rx="4"/>
+    <rect x="18" y="18" width="10" height="32" rx="4"/>
+    <rect x="28" y="20" width="10" height="28" rx="4"/>
+    <rect x="38" y="17" width="10" height="33" rx="4"/>
+    <rect x="48" y="22" width="8" height="24" rx="4"/>
+  </g>
+  <path d="M9 27h46M9 42h46" stroke="#e4c078" stroke-width="3"/>
+  <path d="M9 28h46M9 43h46" stroke="#3b220d" stroke-width="1"/>
+</svg>

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Hava: Gunesli",
+    "path": "../ui/hud/weather-sunny.svg"
+  },
+  {
+    "id": 2,
+    "name": "Hava: Bulutlu",
+    "path": "../ui/hud/weather-cloudy.svg"
+  },
+  {
+    "id": 3,
+    "name": "Hava: Yagmur",
+    "path": "../ui/hud/weather-rain.svg"
+  },
+  {
+    "id": 4,
+    "name": "Hava: Firtina",
+    "path": "../ui/hud/weather-storm.svg"
+  },
+  {
+    "id": 5,
+    "name": "Deniz: Duz",
+    "path": "../ui/hud/sea-calm.svg"
+  },
+  {
+    "id": 6,
+    "name": "Deniz: Dalgali",
+    "path": "../ui/hud/sea-choppy.svg"
+  },
+  {
+    "id": 7,
+    "name": "Deniz: Sert",
+    "path": "../ui/hud/sea-rough.svg"
+  },
+  {
+    "id": 8,
+    "name": "Menu",
+    "path": "../ui/menu/menu.svg"
+  },
+  {
+    "id": 9,
+    "name": "Uretim",
+    "path": "../ui/menu/craft.svg"
+  },
+  {
+    "id": 10,
+    "name": "Envanter",
+    "path": "../ui/menu/inventory.svg"
+  },
+  {
+    "id": 11,
+    "name": "Harita",
+    "path": "../ui/menu/map.svg"
+  },
+  {
+    "id": 12,
+    "name": "Balikcilik",
+    "path": "../ui/menu/fishing.svg"
+  },
+  {
+    "id": 13,
+    "name": "Dalis",
+    "path": "../ui/menu/dive.svg"
+  },
+  {
+    "id": 14,
+    "name": "Sistem",
+    "path": "../ui/menu/system.svg"
+  },
+  {
+    "id": 15,
+    "name": "Kaydet",
+    "path": "../ui/menu/save.svg"
+  },
+  {
+    "id": 16,
+    "name": "Yukle",
+    "path": "../ui/menu/load.svg"
+  },
+  {
+    "id": 17,
+    "name": "Tam Ekran",
+    "path": "../ui/menu/fullscreen.svg"
+  },
+  {
+    "id": 18,
+    "name": "Geri",
+    "path": "../ui/menu/back.svg"
+  },
+  {
+    "id": 19,
+    "name": "Capa Yukarida",
+    "path": "../ui/menu/anchor-up.svg"
+  },
+  {
+    "id": 20,
+    "name": "Capa Suda",
+    "path": "../ui/menu/anchor-down.svg"
+  },
+  {
+    "id": 21,
+    "name": "Giris",
+    "path": "../ui/menu/enter.svg"
+  },
+  {
+    "id": 22,
+    "name": "Saldiri",
+    "path": "../ui/menu/attack.svg"
+  },
+  {
+    "id": 23,
+    "name": "Tamir",
+    "path": "../ui/menu/repair.svg"
+  },
+  {
+    "id": 24,
+    "name": "Sal Parcasi",
+    "path": "../ui/raft/plank.svg"
+  },
+  {
+    "id": 25,
+    "name": "Baglanti Kirisi",
+    "path": "../ui/raft/beam.svg"
+  },
+  {
+    "id": 26,
+    "name": "Toplama Agi",
+    "path": "../ui/raft/net.svg"
+  },
+  {
+    "id": 27,
+    "name": "Su Toplayici",
+    "path": "../ui/raft/water-collector.svg"
+  },
+  {
+    "id": 28,
+    "name": "Basit Ocak",
+    "path": "../ui/raft/grill.svg"
+  },
+  {
+    "id": 29,
+    "name": "Sandik",
+    "path": "../ui/raft/chest.svg"
+  },
+  {
+    "id": 30,
+    "name": "Yatak",
+    "path": "../ui/raft/bed.svg"
+  },
+  {
+    "id": 31,
+    "name": "Direk",
+    "path": "../ui/raft/mast.svg"
+  },
+  {
+    "id": 32,
+    "name": "Yelken",
+    "path": "../ui/raft/sail.svg"
+  }
+]

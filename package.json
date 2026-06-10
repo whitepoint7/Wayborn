@@ -1,0 +1,24 @@
+{
+  "name": "wayborn",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "assets:ui": "node scripts/generate-ui-assets.mjs",
+    "assets:sheets": "node scripts/generate-asset-sheets.mjs",
+    "preview": "vite --host 0.0.0.0",
+    "android:sync": "vite build && cap sync android",
+    "android:apk": "vite build && cap sync android && cd android && gradlew assembleDebug"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0",
+    "vite": "^6.0.11"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^8.4.0",
+    "@capacitor/cli": "^7.6.6",
+    "@capacitor/core": "^8.4.0"
+  }
+}

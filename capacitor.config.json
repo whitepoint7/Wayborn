@@ -1,0 +1,8 @@
+{
+  "appId": "com.wayborn.prototype",
+  "appName": "Wayborn",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

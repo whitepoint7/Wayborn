@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="wood" x1="15" y1="12" x2="49" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b9772b"/>
+      <stop offset=".6" stop-color="#6c3d17"/>
+      <stop offset="1" stop-color="#2d1709"/>
+    </linearGradient>
+    <linearGradient id="water" x1="19" y1="19" x2="46" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#92f3ff"/>
+      <stop offset="1" stop-color="#117cb4"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="32" cy="17" rx="20" ry="8" fill="#111"/>
+  <path d="M13 17h38l-4 35c-5 6-25 6-30 0Z" fill="#111"/>
+  <path d="M17 18h30l-4 31c-4 4-18 4-22 0Z" fill="url(#wood)"/>
+  <ellipse cx="32" cy="18" rx="16" ry="6" fill="#6a3a16"/>
+  <ellipse cx="32" cy="18" rx="12" ry="4" fill="url(#water)"/>
+  <path d="M17 30h30M17 45h30" stroke="#9aa3a0" stroke-width="4"/>
+  <path d="M34 40c-4 6-8 11-8 15 0 5 4 8 8 8s8-3 8-8c0-4-4-9-8-15Z" fill="#111"/>
+  <path d="M34 44c-3 5-5 8-5 11 0 3 2 5 5 5s5-2 5-5c0-3-2-6-5-11Z" fill="#37c5f4"/>
+</svg>

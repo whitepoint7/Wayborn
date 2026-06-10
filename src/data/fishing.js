@@ -1,0 +1,110 @@
+export const FISH_TARGETS = [
+  {
+    key: "seaweed",
+    tier: 0,
+    label: "Yosun Yığını",
+    kind: "trash",
+    reward: { leaf: 1 },
+    color: "#6fbf76",
+    weight: 18,
+    startMin: 44,
+    startMax: 56,
+    playerPullMin: 20,
+    playerPullMax: 28,
+    pullMin: 2,
+    pullMax: 5,
+    tensionGain: 5,
+    releaseRelief: 24,
+    stamina: 25,
+    value: 0
+  },
+  {
+    key: "smallFish",
+    tier: 1,
+    label: "Küçük Balık",
+    kind: "fish",
+    reward: { fish: 1 },
+    color: "#9dd7e5",
+    weight: 38,
+    startMin: 34,
+    startMax: 46,
+    playerPullMin: 16,
+    playerPullMax: 23,
+    pullMin: 7,
+    pullMax: 12,
+    tensionGain: 9,
+    releaseRelief: 22,
+    stamina: 45,
+    value: 6
+  },
+  {
+    key: "reefFish",
+    tier: 2,
+    label: "Resif Balığı",
+    kind: "fish",
+    reward: { fish: 2 },
+    color: "#ffbf7a",
+    weight: 24,
+    startMin: 28,
+    startMax: 40,
+    playerPullMin: 13,
+    playerPullMax: 20,
+    pullMin: 12,
+    pullMax: 20,
+    tensionGain: 13,
+    releaseRelief: 19,
+    stamina: 65,
+    value: 14
+  },
+  {
+    key: "tuna",
+    tier: 3,
+    label: "Büyük Ton",
+    kind: "fish",
+    reward: { fish: 3 },
+    color: "#7aa0d6",
+    weight: 13,
+    startMin: 22,
+    startMax: 34,
+    playerPullMin: 11,
+    playerPullMax: 17,
+    pullMin: 18,
+    pullMax: 28,
+    tensionGain: 17,
+    releaseRelief: 16,
+    stamina: 92,
+    value: 30
+  },
+  {
+    key: "swordfish",
+    tier: 4,
+    label: "Kılıç Balığı",
+    kind: "fish",
+    reward: { fish: 5 },
+    color: "#d9edf0",
+    weight: 7,
+    startMin: 18,
+    startMax: 28,
+    playerPullMin: 9,
+    playerPullMax: 15,
+    pullMin: 24,
+    pullMax: 38,
+    tensionGain: 22,
+    releaseRelief: 14,
+    stamina: 125,
+    value: 70
+  }
+];
+
+export const FISHING_GEAR = {
+  line: [
+    { label: "Basit misina", limit: 100, tensionMultiplier: 1, maxTier: 2 },
+    { label: "Saglam misina", limit: 128, tensionMultiplier: 0.82, maxTier: 3 },
+    { label: "Celik misina", limit: 155, tensionMultiplier: 0.68, maxTier: 4 }
+  ],
+  rod: [
+    { label: "Basit olta", pullBonus: 0, staminaDamage: 0 },
+    { label: "Guclu olta", pullBonus: 5, staminaDamage: 4 },
+    { label: "Agir olta", pullBonus: 9, staminaDamage: 8 }
+  ]
+};
